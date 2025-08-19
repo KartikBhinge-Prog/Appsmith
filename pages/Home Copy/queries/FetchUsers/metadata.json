@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "68a3276fd0b8bb03282a0ce8_f75fc99f-ae18-4769-9d78-5c9d7a605408",
-  "id": "Page1_CreateUser",
+  "gitSyncId": "68a480add0b8bb03282a35e8_bbb4f3bf-e0fc-48d6-ab0c-c13e4b40687f",
+  "id": "Home Copy_FetchUsers",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "INSERT INTO public.\"users\" (\"gender\", \"email\", \"name\")\n  VALUES ('{{CreateUserForm.formData.gender}}', '{{CreateUserForm.formData.email}}', '{{CreateUserForm.formData.name}}');",
+      "body": "SELECT id, gender, name, email FROM public.\"users\"\nLIMIT 10;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -22,14 +22,10 @@
       "name": "Users Database",
       "pluginId": "postgres-plugin"
     },
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
-    "name": "CreateUser",
-    "pageId": "Page1",
-    "runBehaviour": "MANUAL",
+    "dynamicBindingPathList": [],
+    "name": "FetchUsers",
+    "pageId": "Home Copy",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": false
   }
 }

@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "68a3276fd0b8bb03282a0ce8_96a57255-6417-4879-b4e4-bf24bbcff4d9",
-  "id": "Page1_UpdateUser",
+  "gitSyncId": "68a480add0b8bb03282a35e8_d35eb008-795c-4d00-8b9d-2ec64633f58e",
+  "id": "Home Copy_UpdateUser",
   "pluginId": "postgres-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "UPDATE public.\"users\" SET\n    \"gender\" = '{{CreateUserForm.formData.gender}}',\n    \"email\" = '{{CreateUserForm.formData.email}}',\n    \"name\" = '{{CreateUserForm.formData.name}}'\nWHERE id = '{{Table1.selectedRow.id}}'",
+      "body": "UPDATE public.\"users\" SET\n    \"gender\" = '',\n    \"email\" = '',\n    \"name\" = ''\nWHERE id = '{{Table1.selectedRow.id}}'",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -28,7 +28,7 @@
       }
     ],
     "name": "UpdateUser",
-    "pageId": "Page1",
+    "pageId": "Home Copy",
     "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
