@@ -1,0 +1,32 @@
+{
+  "gitSyncId": "68a480add0b8bb03282a35e8_8c1cff0c-bf91-4633-af0d-fb6ed9ddc469",
+  "id": "Home Copy_Custom_FetchUser1",
+  "moduleUUID": "2aebfd87-6265-4b5e-9866-e621364543d9",
+  "packageUUID": "999dac54-beb9-40e3-9ed1-ff73963cd47a",
+  "type": "QUERY_MODULE",
+  "unpublishedModuleInstance": {
+    "contextType": "PAGE",
+    "inputs": {
+      "Fields": "id, name",
+      "Limit": "10"
+    },
+    "moduleInputs": {
+      "fxwblgomun": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "10",
+        "id": "fxwblgomun",
+        "label": "Limit",
+        "propertyName": "inputs.Limit"
+      },
+      "hzjzdhsvxh": {
+        "controlType": "INPUT_TEXT",
+        "defaultValue": "id, name",
+        "id": "hzjzdhsvxh",
+        "label": "Fields",
+        "propertyName": "inputs.Fields"
+      }
+    },
+    "name": "Custom_FetchUser1",
+    "pageId": "Home Copy"
+  }
+}
