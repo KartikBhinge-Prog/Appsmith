@@ -57,9 +57,6 @@
       "key": "boxShadow"
     },
     {
-      "key": "tableData"
-    },
-    {
       "key": "primaryColumns.id.computedValue"
     },
     {
@@ -67,6 +64,9 @@
     },
     {
       "key": "primaryColumns.email.computedValue"
+    },
+    {
+      "key": "tableData"
     }
   ],
   "dynamicPropertyPathList": [
@@ -96,8 +96,8 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 23,
   "needsErrorInfo": false,
-  "originalBottomRow": 60,
-  "originalTopRow": 14,
+  "originalBottomRow": 62,
+  "originalTopRow": 15,
   "parentColumnSpace": 16.640625,
   "parentId": "0",
   "parentRowSpace": 10,

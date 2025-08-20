@@ -112,6 +112,7 @@
   "mobileRightColumn": 44,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
+  "onRowSelected": "{{}}",
   "onSearchTextChanged": "{{}}",
   "parentColumnSpace": 20.09375,
   "parentId": "0",
