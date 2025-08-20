@@ -1,0 +1,13 @@
+name: appsmith-cd  # Workflow name
+
+on:
+  push:
+    branches:
+      - master  # Trigger on push to master branch
+
+jobs:
+  deploy-appsmith:
+    runs-on: ubuntu-latest  # Run on Ubuntu
+
+    steps:
+      - run: "curl --location --fail-early --request POST https://yard.demo.appsmith.com/api/v1/git/applications/68a4793fd0b8bb03282a31cc/deploy?refName=master --header 'Authorization: Bearer ${{ secrets.APPSMITH_CD_KEY }}'"
